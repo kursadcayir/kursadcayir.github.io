@@ -1,4 +1,4 @@
- <!-- dsfsdf-->[![Social banner for jh3y](https://github.com/jh3y/jh3y/raw/master/assets/optimised-banner.svg)](https://twitter.com/mahleninabisi)
+ <!-- [![Social banner for jh3y](https://github.com/jh3y/jh3y/raw/master/assets/optimised-banner.svg)](https://twitter.com/mahleninabisi) -->
 
 # Hi! :wave:
 

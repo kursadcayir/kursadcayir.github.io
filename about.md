@@ -12,8 +12,8 @@ This is the base Jekyll theme. You can find out more info about customizing your
 ---
 layout: default
 targettitle: Taking you to kursad.dev
-target: https://kursad.dev
-targetname: kursad.dev
+target: h
+targetname: ad
 time: 10
 message: This isn't here any more!
 ---

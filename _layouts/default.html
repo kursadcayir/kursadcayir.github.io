@@ -1,35 +1,19 @@
-
----
-layout: default
-targettitle: Taking you to kursad.dev
-target: https://kursad.dev
-targetname: kursad.dev
-time: 10
-message: This is not here any more!
----
 <html lang="en">
 
 <head>
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    {% assign time = 0 %}
-    {% assign targetname = page.target %}
- 
-    {% if page.time %}
-    {% assign time = page.time %}
-    {% endif %}
-    
-    {% if page.targetname %}
-    {% assign targetname = page.targetname %}
-    {% endif %}
+    {% assign target = https://kursad.dev %}
+    {% assign targetname = kursad.dev %}
+    {% assign targettitle = Taking you to kursad.dev %}
 
-    {% capture title %}Redirecting to {{ targetname }}{% endcapture %}
-    {% if page.targettitle %}
-    {% assign title = page.targettitle %}
-    {% endif %}
-    <meta http-equiv="refresh" content="{{ time }};url={{ page.target }}"/>
-    <link rel="canonical" href="{{ page.target }}"/>
+
+
+    {% capture targettitle %}Redirecting to {{ targetname }}{% endcapture %}
+    {% assign title = Taking you to kursad.dev %}
+    <meta http-equiv="refresh" content="{{ time }};url={{ target }}"/>
+    <link rel="canonical" href="{{ target }}"/>
     <title>{{ title }}</title>
     <style>
         body {
@@ -41,15 +25,8 @@ message: This is not here any more!
 </head>
 <body>
     <h1>{{ title }}</h1>
-   
-    {% if page.message %}
-    <p>{{ page.message }}</p>
-    {% else %}
     <p>This document has moved!</p>
-    {% endif %}
-
-    <p>Redirecting to <a href="{{ page.target }}">{{ targetname }}</a> in {{ time }} seconds.</p>
-
+    <p>Redirecting to <a href="{{ targetname}}">{{ targetname }}</a>.</p>
 </body>
 </html>
 <!-- 

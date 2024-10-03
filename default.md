@@ -1,6 +1,6 @@
 ---
 layout: default
-targettitle:Taking you to kursad.dev
+targettitle: Taking you to kursad.dev
 target: https://kursad.dev
 targetname: kursad.dev
 time: 10
